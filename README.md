@@ -35,7 +35,7 @@ python3 -m pip install -r plotting/requirements.txt
 ./reproduce_paper2.sh 2
 ```
 
-The output is written to `figures/paper2_tables.txt` and the figures to `paper2/figures/`. Level 2 rewrites every table in `paper2/data/` and compares it with the stored one; on a different platform or version of SciPy, a few numbers may differ in the last printed digit.
+The output is written to `figures/paper2_tables.txt` and the figures to `paper2/figures/`. Level 2 rewrites every table in `paper2/data/` and compares it with the stored one; on a different platform or version of SciPy, a few numbers may differ in the last printed digits; the comparison prints the largest relative difference for each table. `git checkout paper2/data` restores the stored tables.
 
 | In the paper | Printed or drawn by Level 2 as |
 |---|---|
