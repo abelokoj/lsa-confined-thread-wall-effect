@@ -1,0 +1,3 @@
+80 cases (rho2/rho1 = 1.225e-3 and 1.225e-4); reduction (%) of the rate at x_m with the wall at the fitted gap
+gap_1pct (nominal 1.0%): min 0.7128 at rho2=0.001225, Oh=0.02, mu2/mu1=2.0; max 1.2894 at rho2=0.0001225, Oh=0.1, mu2/mu1=2.0; above nominal in 47 cases
+gap_0p1pct (nominal 0.1%): min 0.0660 at rho2=0.001225, Oh=0.02, mu2/mu1=2.0; max 0.1245 at rho2=0.0001225, Oh=0.1, mu2/mu1=0.0652; above nominal in 41 cases

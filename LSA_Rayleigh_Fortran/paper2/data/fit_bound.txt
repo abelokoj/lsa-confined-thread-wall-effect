@@ -1,0 +1,12 @@
+Calibration: 80 cases (rho2/rho1 = 1.225e-4 and 1.225e-3), pooled fit; reductions (%) of the rate at x_m.
+Held-out: seed 20261123, 50 log-uniform draws (Oh 0.005-0.1, mu2/mu1 0.005-2, rho2 1.225e-4-1.225e-3); 50 used, 0 discarded for delta_mu outside [0.0086, 1.07].
+
+gap_1pct (nominal 1.0%): F = 1.05
+  calibration: worst at G_fit 1.2894 (rho2=0.0001225, Oh=0.1, mu2/mu1=2); worst at F*G_fit 0.9953 (rho2=0.0001225, Oh=0.1, mu2/mu1=2); F*G_fit/G_exact median 1.045, min 1.001, max 1.134; above nominal at F*G_fit: 0
+  held-out: worst at G_fit 1.1287 (rho2=0.000162, Oh=0.08902, mu2/mu1=0.1042); worst at F*G_fit 0.9807 (rho2=0.0001383, Oh=0.008134, mu2/mu1=0.2651); F*G_fit/G_exact median 1.050, min 1.008, max 1.123; above nominal at F*G_fit: 0
+
+gap_0p1pct (nominal 0.1%): F = 1.08
+  calibration: worst at G_fit 0.1245 (rho2=0.0001225, Oh=0.1, mu2/mu1=0.0652); worst at F*G_fit 0.0979 (rho2=0.001225, Oh=0.005, mu2/mu1=0.005); F*G_fit/G_exact median 1.076, min 1.009, max 1.167; above nominal at F*G_fit: 0
+  held-out: worst at G_fit 0.1213 (rho2=0.000162, Oh=0.08902, mu2/mu1=0.1042); worst at F*G_fit 0.0909 (rho2=0.0001528, Oh=0.01193, mu2/mu1=0.04709); F*G_fit/G_exact median 1.071, min 1.031, max 1.140; above nominal at F*G_fit: 0
+
+Runtime 40 s

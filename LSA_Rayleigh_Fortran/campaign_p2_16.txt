@@ -1,0 +1,27 @@
+# campaign_p2_16.txt -- the 16-cell runs of Paper 2 (wall, viscous ambient and gas series), 16 ranks. The lines are copied unchanged from
+# campaign_16.txt and campaign_next_16.txt of the dissertation. The three runs that needed longer, conf15_32, visc100r6_16 and visc100r8_16, are in campaign_check.txt.
+# rhog10_16 and mug10_16 have no twin: only their interface rate is used, and the interface fit needs none.
+#
+# Columns: label kr0 eps cells_per_r0 rmax n_periods snapshots [make_inputs options]. A label ending in .base is the unperturbed twin.
+sw070_16        0.7   2.5e-3 16   4.0   4.3   160   --eps-cells 0.04
+sw070_16.base   0.7   0   16   4.0   4.3   160
+rhog10_16       0.7   2.5e-3 16   4.0   4.3   160   --eps-cells 0.04 --rho-g 1.225e-4
+mug10_16        0.7   2.5e-3 16   4.0   4.3   160   --eps-cells 0.04 --mu-g 2.6e-5
+conf30_16        0.7   2.5e-3 16   3.0   5.5   180   --eps-cells 0.04
+conf30_16.base   0.7   0      16   3.0   5.5   180
+conf20_16        0.7   2.5e-3 16   2.0   5.5   180   --eps-cells 0.04
+conf20_16.base   0.7   0      16   2.0   5.5   180
+conf15_16        0.7   2.5e-3 16   1.5   5.5   180   --eps-cells 0.04
+conf15_16.base   0.7   0      16   1.5   5.5   180
+conf15k050_16      0.5 2.5e-3 16   1.5   5.5   180   --eps-cells 0.04
+conf15k050_16.base 0.5 0      16   1.5   5.5   180
+conf15k060_16      0.6 2.5e-3 16   1.5   5.5   180   --eps-cells 0.04
+conf15k060_16.base 0.6 0      16   1.5   5.5   180
+conf15k080_16      0.8 2.5e-3 16   1.5   5.5   180   --eps-cells 0.04
+conf15k080_16.base 0.8 0      16   1.5   5.5   180
+visc010_16       0.7   2.5e-3 16   4.0   5.0   180   --eps-cells 0.04 --mu-g 0.002
+visc010_16.base  0.7   0      16   4.0   5.0   180   --mu-g 0.002
+visc030_16       0.7   2.5e-3 16   4.0   5.0   180   --eps-cells 0.04 --mu-g 0.006
+visc030_16.base  0.7   0      16   4.0   5.0   180   --mu-g 0.006
+visc100_16       0.7   2.5e-3 16   4.0   5.0   180   --eps-cells 0.04 --mu-g 0.02
+visc100_16.base  0.7   0      16   4.0   5.0   180   --mu-g 0.02
